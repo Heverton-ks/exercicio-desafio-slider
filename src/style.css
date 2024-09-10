@@ -1,0 +1,108 @@
+
+body{
+    /* background-image: url("imagem1.png") ; */
+    height: 100vh;
+    background-size: cover;   
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.fundo1{
+    background-image: url("imagem1.png") ;
+}
+
+.fundo2{
+    background-image: url("imagem2.png") ;
+}
+
+.fundo3{
+    background-image: url("imagem3.png") ;
+}
+
+.fundo4{
+    background-image: url("imagem4.png") ;
+}
+
+
+
+
+
+
+
+
+#setas{
+    width: 100%;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seta-esquerda{
+    transform: scaleX(-1);
+}
+
+.box{
+    background-color: white;
+    position: absolute;
+    margin-left: 180px;
+    width: 620px;
+    height: 700px;
+    padding: 65px 60px;   
+    border-radius: 10px;
+}
+
+.box .titulo {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+}
+
+.box .texto {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.saibaMais {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    
+}
+
+.vermelho, .vermelho:visited {
+    color: #C50000;
+}
+
+.amarelo, .amarelo:visited{
+    color: #D9DD10;
+}
+
+.marrom, .marrom:visited{
+    color: #A63A17;
+}
+
+.azul, .azul:visited{
+    color: #10ACDD;
+}
+
+
+.link:hover {
+    opacity: 0.4; 
+}
+
+.link:active {
+    opacity: 1;
+}
+
+.opacidade {
+    opacity: 0.5;
+}
+
+
+
