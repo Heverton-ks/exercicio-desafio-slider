@@ -10,39 +10,32 @@ imagemFundo.classList.add("fundo1");
 
     btnSetaDireita.addEventListener('click', () => {
 		
-        if(saibaMais.classList.contains('vermelho')){
-            saibaMais.classList.remove("vermelho");
-            saibaMais.classList.add("amarelo");
+        if(imagemFundo.classList.contains('fundo1')){
             btnSetaEsquerda.classList.remove("opacidade")
+            imagemFundo.classList.remove("fundo1");
             imagemFundo.classList.add("fundo2");
-        } else if(saibaMais.classList.contains('amarelo')){
-            saibaMais.classList.remove("amarelo");
-            saibaMais.classList.add("marrom");
+        } else if(imagemFundo.classList.contains('fundo2')){ 
+            imagemFundo.classList.remove("fundo2");
             imagemFundo.classList.add("fundo3");
-        } else if(saibaMais.classList.contains('marrom')){
-            saibaMais.classList.remove("marrom");
-            saibaMais.classList.add("azul");
+        } else if(imagemFundo.classList.contains('fundo3')){
+
             btnSetaDireita.classList.add("opacidade");
+            imagemFundo.classList.remove("fundo3");
             imagemFundo.classList.add("fundo4");
         }
     });
 
     btnSetaEsquerda.addEventListener('click', () => {
             
-        if(saibaMais.classList.contains('azul')){
-            saibaMais.classList.remove("azul");
-            saibaMais.classList.add("marrom");
+        if(imagemFundo.classList.contains('fundo4')){
             btnSetaDireita.classList.remove("opacidade")
             imagemFundo.classList.remove("fundo4");
             imagemFundo.classList.add("fundo3");
-        } else if(saibaMais.classList.contains('marrom')){
-            saibaMais.classList.remove("marrom");
-            saibaMais.classList.add("amarelo");
+        } else if(imagemFundo.classList.contains('fundo3')){
+
             imagemFundo.classList.remove("fundo3");
             imagemFundo.classList.add("fundo2");
-        } else if(saibaMais.classList.contains('amarelo')){
-            saibaMais.classList.remove("amarelo");
-            saibaMais.classList.add("vermelho");
+        } else if(imagemFundo.classList.contains('fundo2')){
             btnSetaEsquerda.classList.add("opacidade");
             imagemFundo.classList.remove("fundo2");
             imagemFundo.classList.add("fundo1");
