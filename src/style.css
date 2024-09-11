@@ -1,13 +1,10 @@
 
 body{
-    /* background-image: url("imagem1.png") ; */
     height: 100vh;
     background-size: cover;   
     display: flex;
     align-items: center;
-    font-family: "Roboto", sans-serif;
 }
-
 
 .fundo1{
     background-image: url("imagem1.png") ;
@@ -25,13 +22,6 @@ body{
     background-image: url("imagem4.png") ;
 }
 
-
-
-
-
-
-
-
 #setas{
     width: 100%;
     margin: 0px 70px;
@@ -43,7 +33,7 @@ body{
     transform: scaleX(-1);
 }
 
-.box{
+.caixa{
     background-color: white;
     position: absolute;
     margin-left: 180px;
@@ -53,26 +43,24 @@ body{
     border-radius: 10px;
 }
 
-.box .titulo {
+.caixa .titulo {
     font-size: 50px;
     font-weight: 400;
     line-height: 58.59px;
 }
 
-.box .texto {
+.caixa .texto {
     font-size: 25px;
     font-weight: 300;
     line-height: 35px;
     margin-top: 80px;
     margin-bottom: 50px;
-    
 }
 
 .saibaMais {
     font-size: 30px;
     font-weight: 700;
     line-height: 35.16px;
-    
 }
 
 .vermelho, .vermelho:visited {
