@@ -27,10 +27,15 @@ body{
     margin: 0px 70px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .seta-esquerda{
     transform: scaleX(-1);
+}
+
+.seta-esquerda, .seta-direita {
+    cursor: pointer;
 }
 
 .caixa{
@@ -90,6 +95,7 @@ body{
 
 .opacidade {
     opacity: 0.5;
+    cursor: default;
 }
 
 
